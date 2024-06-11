@@ -1,12 +1,22 @@
 <!DOCTYPE html>
- <html>
-   <head>
-     <meta charset="utf-8" />
-    <title>Asset Management</title>
-   </head>
-   <body>
-    
-    
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text">
+      </div>
+      <div>
+        <label for="name">Password</label>
+        <input id="password" name="password" type="password">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
     <script src="bundle.js"></script>
-   </body>
- </html>
+  </body>
+</html>
